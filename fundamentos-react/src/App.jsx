@@ -13,18 +13,18 @@ function App() {
 return (
 <div className="App">
 <h1>FUNDAMENTOS REACT</h1>
-<div className="Cards">
 
+<div className="Cards">
 <Card titulo="#7 - Desafio Repetição">
-<TabelaProdutos/>
-</Card> 
+<TabelaProdutos />
+</Card>
 
 <Card titulo="#6 - Repetição">
-<ListaAlunos/>
-</Card> 
+<ListaAlunos />
+</Card>
 
 <Card titulo="#5 - Componentes com Filhos">
-<Familia sobrenome ="Ferreira"/>
+<Familia sobrenome="Ferreira" />
 </Card>
 
 <Card titulo="#4 - Desdafio Aleatório">

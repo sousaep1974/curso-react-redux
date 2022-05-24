@@ -8,6 +8,8 @@ import Card from "./components/layout/Card";
 import Familia from "./components/basicos/Familia";
 import ListaAlunos from "./components/repetição/ListaAlunos";
 import TabelaProdutos from "./components/repetição/TabelaProdutos";
+import ParOuImpar from "./components/condicional/ParOuImpar";
+
 
 function App() {
 return (
@@ -15,6 +17,12 @@ return (
 <h1>FUNDAMENTOS REACT</h1>
 
 <div className="Cards">
+
+<Card titulo="#8 - Renderização Condicional">
+<ParOuImpar numero={20}></ParOuImpar>
+<ParOuImpar numero={21}></ParOuImpar>
+</Card>
+
 <Card titulo="#7 - Desafio Repetição">
 <TabelaProdutos />
 </Card>
